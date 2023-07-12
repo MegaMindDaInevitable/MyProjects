@@ -85,6 +85,7 @@ void Staffmember::GuiSet()
     int enumIndex = metaObject->indexOfEnumerator("AppointmentType");
     QMetaEnum metaEnum = metaObject->enumerator(enumIndex);
 
+    //for loop to add my enum objects to combo box
 
     for(int i = 0; i <metaEnum.keyCount();i++)
     {
